@@ -1,0 +1,30 @@
+NAME
+	nsh - minimal shell
+
+SYNOPSIS
+	nsh [script]
+Script:
+	run testscript to test nsh
+
+
+DESCRIPTION
+	Minimal shell that mimics some features of sh. 
+
+	Extensions Implemented:
+
+		1. Allow meta characters to appear without spaces around them
+		2. Single Quoting
+		3. Multiple Pipes
+		4. Environment Variables
+
+	Regular Features:
+
+		      CD [directory] - Change to specified directory or HOME if none are given	
+		
+			      Ctrl-D - Exit the shell
+
+	Script [option]... [file]... - Execute a script or program
+
+	    Script | Script | Script - Pipe scripts
+	
+       Script < [infile] > [outfile] - Input Output Redirection
